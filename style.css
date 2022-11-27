@@ -87,25 +87,24 @@ body {
   cursor: pointer;
 }
 
-.red {
-  background: red;
+.red,
+.gray,
+.black {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+
+.red {
+  background: red;
 }
 
 .gray {
   background: gray;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
 }
 
 .black {
   background: black;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
 }
 
 .pricing {
